@@ -1,0 +1,49 @@
+#inputComment{
+  height: 100px;
+  width: 400px;
+}
+#inputName{
+  display: block;
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+}
+#commentArea{
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+#submitBt{
+  height: 30px;
+  width: 50px;
+  margin-top: 10px;
+}
+#replyArea{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+#inputReply{
+  height: 100px;
+  width: 400px;
+}
+#replyName{
+  display: block;
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+}
+#submitReply{
+  height: 30px;
+  width: 50px;
+  margin-top: 10px;
+}
+#replyComments{
+  margin-left: 30px;
+}
+#foldBtn{
+  border: none;
+}
